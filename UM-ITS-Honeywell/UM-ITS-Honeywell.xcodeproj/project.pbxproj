@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F6D15AA23F1C1F7007D25D6 /* libCaptuvoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6D15A923F1C1F7007D25D6 /* libCaptuvoSDK.a */; };
+		7F6D15AE23F1C4C1007D25D6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */; };
+		7F98D21E23EDF75F007492C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D21D23EDF75F007492C6 /* AppDelegate.swift */; };
+		7F98D22023EDF75F007492C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D21F23EDF75F007492C6 /* SceneDelegate.swift */; };
+		7F98D22223EDF75F007492C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D22123EDF75F007492C6 /* ContentView.swift */; };
+		7F98D22423EDF76B007492C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F98D22323EDF76B007492C6 /* Assets.xcassets */; };
+		7F98D22723EDF76B007492C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F98D22623EDF76B007492C6 /* Preview Assets.xcassets */; };
+		7F98D22A23EDF76B007492C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F98D22823EDF76B007492C6 /* LaunchScreen.storyboard */; };
+		7F98D23523EDF76C007492C6 /* UM_ITS_HoneywellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D23423EDF76C007492C6 /* UM_ITS_HoneywellTests.swift */; };
+		7F98D24023EDF76C007492C6 /* UM_ITS_HoneywellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D23F23EDF76C007492C6 /* UM_ITS_HoneywellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F98D23123EDF76C007492C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F98D21223EDF75F007492C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F98D21923EDF75F007492C6;
+			remoteInfo = "UM-ITS-Honeywell";
+		};
+		7F98D23C23EDF76C007492C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F98D21223EDF75F007492C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F98D21923EDF75F007492C6;
+			remoteInfo = "UM-ITS-Honeywell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F6D15A923F1C1F7007D25D6 /* libCaptuvoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCaptuvoSDK.a; path = ../../../Downloads/CaptuvoSDK/SDK/Lib/libCaptuvoSDK.a; sourceTree = "<group>"; };
+		7F6D15AB23F1C205007D25D6 /* Captuvo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Captuvo.h; path = ../../../Downloads/CaptuvoSDK/SDK/Include/Captuvo.h; sourceTree = "<group>"; };
+		7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7F98D21A23EDF75F007492C6 /* UM-ITS-Honeywell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM-ITS-Honeywell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F98D21D23EDF75F007492C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F98D21F23EDF75F007492C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F98D22123EDF75F007492C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F98D22323EDF76B007492C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F98D22623EDF76B007492C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F98D22923EDF76B007492C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F98D22B23EDF76B007492C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F98D23023EDF76C007492C6 /* UM-ITS-HoneywellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UM-ITS-HoneywellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F98D23423EDF76C007492C6 /* UM_ITS_HoneywellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UM_ITS_HoneywellTests.swift; sourceTree = "<group>"; };
+		7F98D23623EDF76C007492C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F98D23B23EDF76C007492C6 /* UM-ITS-HoneywellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UM-ITS-HoneywellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F98D23F23EDF76C007492C6 /* UM_ITS_HoneywellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UM_ITS_HoneywellUITests.swift; sourceTree = "<group>"; };
+		7F98D24123EDF76C007492C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F98D21723EDF75F007492C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6D15AE23F1C4C1007D25D6 /* ExternalAccessory.framework in Frameworks */,
+				7F6D15AA23F1C1F7007D25D6 /* libCaptuvoSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D22D23EDF76C007492C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D23823EDF76C007492C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F6D15A823F1C19F007D25D6 /* Captuvo Starter */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D15A923F1C1F7007D25D6 /* libCaptuvoSDK.a */,
+				7F6D15AB23F1C205007D25D6 /* Captuvo.h */,
+			);
+			path = "Captuvo Starter";
+			sourceTree = "<group>";
+		};
+		7F6D15AC23F1C4C0007D25D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F98D21123EDF75E007492C6 = {
+			isa = PBXGroup;
+			children = (
+				7F98D21C23EDF75F007492C6 /* UM-ITS-Honeywell */,
+				7F98D23323EDF76C007492C6 /* UM-ITS-HoneywellTests */,
+				7F98D23E23EDF76C007492C6 /* UM-ITS-HoneywellUITests */,
+				7F98D21B23EDF75F007492C6 /* Products */,
+				7F6D15A823F1C19F007D25D6 /* Captuvo Starter */,
+				7F6D15AC23F1C4C0007D25D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F98D21B23EDF75F007492C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F98D21A23EDF75F007492C6 /* UM-ITS-Honeywell.app */,
+				7F98D23023EDF76C007492C6 /* UM-ITS-HoneywellTests.xctest */,
+				7F98D23B23EDF76C007492C6 /* UM-ITS-HoneywellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F98D21C23EDF75F007492C6 /* UM-ITS-Honeywell */ = {
+			isa = PBXGroup;
+			children = (
+				7F98D21D23EDF75F007492C6 /* AppDelegate.swift */,
+				7F98D21F23EDF75F007492C6 /* SceneDelegate.swift */,
+				7F98D22123EDF75F007492C6 /* ContentView.swift */,
+				7F98D22323EDF76B007492C6 /* Assets.xcassets */,
+				7F98D22823EDF76B007492C6 /* LaunchScreen.storyboard */,
+				7F98D22B23EDF76B007492C6 /* Info.plist */,
+				7F98D22523EDF76B007492C6 /* Preview Content */,
+			);
+			path = "UM-ITS-Honeywell";
+			sourceTree = "<group>";
+		};
+		7F98D22523EDF76B007492C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F98D22623EDF76B007492C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F98D23323EDF76C007492C6 /* UM-ITS-HoneywellTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F98D23423EDF76C007492C6 /* UM_ITS_HoneywellTests.swift */,
+				7F98D23623EDF76C007492C6 /* Info.plist */,
+			);
+			path = "UM-ITS-HoneywellTests";
+			sourceTree = "<group>";
+		};
+		7F98D23E23EDF76C007492C6 /* UM-ITS-HoneywellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F98D23F23EDF76C007492C6 /* UM_ITS_HoneywellUITests.swift */,
+				7F98D24123EDF76C007492C6 /* Info.plist */,
+			);
+			path = "UM-ITS-HoneywellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F98D21923EDF75F007492C6 /* UM-ITS-Honeywell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F98D24423EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-Honeywell" */;
+			buildPhases = (
+				7F98D21623EDF75F007492C6 /* Sources */,
+				7F98D21723EDF75F007492C6 /* Frameworks */,
+				7F98D21823EDF75F007492C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UM-ITS-Honeywell";
+			productName = "UM-ITS-Honeywell";
+			productReference = 7F98D21A23EDF75F007492C6 /* UM-ITS-Honeywell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F98D22F23EDF76C007492C6 /* UM-ITS-HoneywellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F98D24723EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-HoneywellTests" */;
+			buildPhases = (
+				7F98D22C23EDF76C007492C6 /* Sources */,
+				7F98D22D23EDF76C007492C6 /* Frameworks */,
+				7F98D22E23EDF76C007492C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F98D23223EDF76C007492C6 /* PBXTargetDependency */,
+			);
+			name = "UM-ITS-HoneywellTests";
+			productName = "UM-ITS-HoneywellTests";
+			productReference = 7F98D23023EDF76C007492C6 /* UM-ITS-HoneywellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F98D23A23EDF76C007492C6 /* UM-ITS-HoneywellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F98D24A23EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-HoneywellUITests" */;
+			buildPhases = (
+				7F98D23723EDF76C007492C6 /* Sources */,
+				7F98D23823EDF76C007492C6 /* Frameworks */,
+				7F98D23923EDF76C007492C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F98D23D23EDF76C007492C6 /* PBXTargetDependency */,
+			);
+			name = "UM-ITS-HoneywellUITests";
+			productName = "UM-ITS-HoneywellUITests";
+			productReference = 7F98D23B23EDF76C007492C6 /* UM-ITS-HoneywellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F98D21223EDF75F007492C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "UM-Support";
+				TargetAttributes = {
+					7F98D21923EDF75F007492C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7F98D22F23EDF76C007492C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7F98D21923EDF75F007492C6;
+					};
+					7F98D23A23EDF76C007492C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7F98D21923EDF75F007492C6;
+					};
+				};
+			};
+			buildConfigurationList = 7F98D21523EDF75F007492C6 /* Build configuration list for PBXProject "UM-ITS-Honeywell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F98D21123EDF75E007492C6;
+			productRefGroup = 7F98D21B23EDF75F007492C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F98D21923EDF75F007492C6 /* UM-ITS-Honeywell */,
+				7F98D22F23EDF76C007492C6 /* UM-ITS-HoneywellTests */,
+				7F98D23A23EDF76C007492C6 /* UM-ITS-HoneywellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F98D21823EDF75F007492C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98D22A23EDF76B007492C6 /* LaunchScreen.storyboard in Resources */,
+				7F98D22723EDF76B007492C6 /* Preview Assets.xcassets in Resources */,
+				7F98D22423EDF76B007492C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D22E23EDF76C007492C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D23923EDF76C007492C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F98D21623EDF75F007492C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98D21E23EDF75F007492C6 /* AppDelegate.swift in Sources */,
+				7F98D22023EDF75F007492C6 /* SceneDelegate.swift in Sources */,
+				7F98D22223EDF75F007492C6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D22C23EDF76C007492C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98D23523EDF76C007492C6 /* UM_ITS_HoneywellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98D23723EDF76C007492C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98D24023EDF76C007492C6 /* UM_ITS_HoneywellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F98D23223EDF76C007492C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F98D21923EDF75F007492C6 /* UM-ITS-Honeywell */;
+			targetProxy = 7F98D23123EDF76C007492C6 /* PBXContainerItemProxy */;
+		};
+		7F98D23D23EDF76C007492C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F98D21923EDF75F007492C6 /* UM-ITS-Honeywell */;
+			targetProxy = 7F98D23C23EDF76C007492C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F98D22823EDF76B007492C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F98D22923EDF76B007492C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F98D24223EDF76C007492C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F98D24323EDF76C007492C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F98D24523EDF76C007492C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UM-ITS-Honeywell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "UM-ITS-Honeywell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-Honeywell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F98D24623EDF76C007492C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UM-ITS-Honeywell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "UM-ITS-Honeywell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-Honeywell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F98D24823EDF76C007492C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UM-ITS-HoneywellTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-HoneywellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UM-ITS-Honeywell.app/UM-ITS-Honeywell";
+			};
+			name = Debug;
+		};
+		7F98D24923EDF76C007492C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UM-ITS-HoneywellTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-HoneywellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UM-ITS-Honeywell.app/UM-ITS-Honeywell";
+			};
+			name = Release;
+		};
+		7F98D24B23EDF76C007492C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UM-ITS-HoneywellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-HoneywellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UM-ITS-Honeywell";
+			};
+			name = Debug;
+		};
+		7F98D24C23EDF76C007492C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UM-ITS-HoneywellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-HoneywellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UM-ITS-Honeywell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F98D21523EDF75F007492C6 /* Build configuration list for PBXProject "UM-ITS-Honeywell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F98D24223EDF76C007492C6 /* Debug */,
+				7F98D24323EDF76C007492C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F98D24423EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-Honeywell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F98D24523EDF76C007492C6 /* Debug */,
+				7F98D24623EDF76C007492C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F98D24723EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-HoneywellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F98D24823EDF76C007492C6 /* Debug */,
+				7F98D24923EDF76C007492C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F98D24A23EDF76C007492C6 /* Build configuration list for PBXNativeTarget "UM-ITS-HoneywellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F98D24B23EDF76C007492C6 /* Debug */,
+				7F98D24C23EDF76C007492C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F98D21223EDF75F007492C6 /* Project object */;
+}
