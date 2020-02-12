@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F6D15AA23F1C1F7007D25D6 /* libCaptuvoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6D15A923F1C1F7007D25D6 /* libCaptuvoSDK.a */; };
 		7F6D15AE23F1C4C1007D25D6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */; };
+		7F7726CB23F46C0800FE77CF /* libCaptuvoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7726CA23F46BFD00FE77CF /* libCaptuvoSDK.a */; };
 		7F98D21E23EDF75F007492C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D21D23EDF75F007492C6 /* AppDelegate.swift */; };
 		7F98D22023EDF75F007492C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D21F23EDF75F007492C6 /* SceneDelegate.swift */; };
 		7F98D22223EDF75F007492C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98D22123EDF75F007492C6 /* ContentView.swift */; };
@@ -40,6 +40,8 @@
 		7F6D15A923F1C1F7007D25D6 /* libCaptuvoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCaptuvoSDK.a; path = ../../../Downloads/CaptuvoSDK/SDK/Lib/libCaptuvoSDK.a; sourceTree = "<group>"; };
 		7F6D15AB23F1C205007D25D6 /* Captuvo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Captuvo.h; path = ../../../Downloads/CaptuvoSDK/SDK/Include/Captuvo.h; sourceTree = "<group>"; };
 		7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7F7726C923F46BFD00FE77CF /* Captuvo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Captuvo.h; sourceTree = "<group>"; };
+		7F7726CA23F46BFD00FE77CF /* libCaptuvoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCaptuvoSDK.a; sourceTree = "<group>"; };
 		7F98D21A23EDF75F007492C6 /* UM-ITS-Honeywell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM-ITS-Honeywell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F98D21D23EDF75F007492C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F98D21F23EDF75F007492C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7726CB23F46C0800FE77CF /* libCaptuvoSDK.a in Frameworks */,
 				7F6D15AE23F1C4C1007D25D6 /* ExternalAccessory.framework in Frameworks */,
-				7F6D15AA23F1C1F7007D25D6 /* libCaptuvoSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +97,19 @@
 		7F6D15AC23F1C4C0007D25D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F7726C823F46BFD00FE77CF /* Captuvo Starter */,
 				7F6D15AD23F1C4C1007D25D6 /* ExternalAccessory.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F7726C823F46BFD00FE77CF /* Captuvo Starter */ = {
+			isa = PBXGroup;
+			children = (
+				7F7726C923F46BFD00FE77CF /* Captuvo.h */,
+				7F7726CA23F46BFD00FE77CF /* libCaptuvoSDK.a */,
+			);
+			path = "Captuvo Starter";
 			sourceTree = "<group>";
 		};
 		7F98D21123EDF75E007492C6 = {
@@ -468,6 +480,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Captuvo\\ Starter",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-Honeywell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -486,6 +502,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Captuvo\\ Starter",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "UM-ITS.UM-ITS-Honeywell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
